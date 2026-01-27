@@ -628,7 +628,7 @@ result.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>A solution to the problem appears as a <a href="../exercises/10-dummy-array-arguments/exercise.f90">template</a> to
 the exercise in the <a href="10-dummy-array-arguments.html">later
@@ -655,22 +655,22 @@ stepped forwards. In a new step, each cell calculates the sum of the
 surrounding eight cells. Depending on the value of that sum, the cell’s
 state may change or stay the same. The rules governing the update are
 summarised in the following table:</p>
-<table class="table"><thead><tr class="header"><th>Cell state</th>
+<table class="table"><thead><tr><th>Cell state</th>
 <th>Sum of neighbouring 8 cells</th>
 <th>New Cell state</th>
-</tr></thead><tbody><tr class="odd"><td>0</td>
+</tr></thead><tbody><tr><td>0</td>
 <td>0,1,2,4,5,6,7,8</td>
 <td>0</td>
-</tr><tr class="even"><td>0</td>
+</tr><tr><td>0</td>
 <td>3</td>
 <td>1</td>
-</tr><tr class="odd"><td>1</td>
+</tr><tr><td>1</td>
 <td>0,1</td>
 <td>0</td>
-</tr><tr class="even"><td>1</td>
+</tr><tr><td>1</td>
 <td>4,5,6,7,8</td>
 <td>0</td>
-</tr><tr class="odd"><td>1</td>
+</tr><tr><td>1</td>
 <td>2,3</td>
 <td>1</td>
 </tr></tbody></table><p>A template <a href="../exercises/07-exercise/life.f90">life.f90</a> is
@@ -734,7 +734,7 @@ board and the first update:</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <p>Two reference answers are given in the <code>solutions</code>
 directory. The <a href="../exercises/07-exercise/solutions-1/life-step2.f90">first</a> only
@@ -794,7 +794,7 @@ solve some real problems.</li>
         <p>Materials licensed under <a href="LICENSE.html">CC-BY 4.0</a> by the authors</p>
 
         <p>Template licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">CC-BY 4.0</a> by <a href="https://carpentries.org/" class="external-link">The Carpentries</a></p>
-        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/0.18.4" class="external-link">sandpaper (0.18.4)</a>, <a href="https://github.com/carpentries/pegboard/tree/0.7.9" class="external-link">pegboard (0.7.9)</a>, and <a href="https://github.com/carpentries/varnish/tree/1.0.9" class="external-link">varnish (1.0.9)</a></p>
+        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/" class="external-link">sandpaper (0.18.1)</a>, <a href="https://github.com/carpentries/pegboard/tree/" class="external-link">pegboard (0.7.9)</a>, and <a href="https://github.com/carpentries/varnish/tree/" class="external-link">varnish (1.0.9)</a></p>
 		</div>
 		</footer></div> <!-- / div.container -->
 	<div id="to-top">

@@ -938,7 +938,7 @@ output do you get when you run it?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>Compile and run the program on ARCHER2 as follows:</p>
 <pre class="source"><code>ftn example1.f90
@@ -1091,7 +1091,7 @@ module loaded.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <p>Make sure to <code>use</code> the module, then use
 <code>print *</code> statements to write the values of the three symbols
@@ -2304,7 +2304,7 @@ final value after exit from the loop.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>The following output is produced:</p>
 <div class="codewrapper">
@@ -2369,7 +2369,7 @@ tolerance of the true answer?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <p>Sample code implementing loops with this problem is used as a
 template to the <a href="exercises/05-arrays/exercise1.f90">exercise</a>
@@ -2412,7 +2412,7 @@ reverse order in this case? Can you think why this happens?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3"> Show me the solution </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
 <div class="accordion-body">
 <p>Answer to the expert question: floating point numbers of a given
 format (such as <code>real64</code>) all have the same <em>relative
@@ -2602,11 +2602,11 @@ an array’s shape.</p>
 <div class="section level3">
 <h3 id="exercise-2-minutes">Exercise (2 minutes)<a class="anchor" aria-label="anchor" href="#exercise-2-minutes"></a>
 </h3>
-<div id="array-sizes-and-shapes" class="callout discussion">
+<div id="array-sizes-and-shapes" class="callout challenge">
 <div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
+<i class="callout-icon" data-feather="zap"></i>
 </div>
-<span class="callout-header">Discussion</span>
+<span class="callout-header">Challenge</span>
 <div id="array-sizes-and-shapes" class="callout-inner">
 <h3 class="callout-title">Array sizes and shapes</h3>
 <div class="callout-content">
@@ -2660,11 +2660,11 @@ allocated is an error.</p>
 <div class="section level3">
 <h3 id="exercise-5-minutes">Exercise (5 minutes)<a class="anchor" aria-label="anchor" href="#exercise-5-minutes"></a>
 </h3>
-<div id="computing-pi-with-arrays" class="callout discussion">
+<div id="computing-pi-with-arrays" class="callout challenge">
 <div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
+<i class="callout-icon" data-feather="zap"></i>
 </div>
-<span class="callout-header">Discussion</span>
+<span class="callout-header">Challenge</span>
 <div id="computing-pi-with-arrays" class="callout-inner">
 <h3 class="callout-title">Computing pi with arrays</h3>
 <div class="callout-content">
@@ -2822,7 +2822,7 @@ check the compilation errors and improve the program.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>The first assignment given above is ambiguous. Is <code>d</code> a
 scalar variable, or an entire array? The second assignment is clearly on
@@ -2931,11 +2931,11 @@ work in parallel: explicit loops may provide better opportunities.</li>
 <div class="section level3">
 <h3 id="exercise-5-minutes">Exercise (5 minutes)<a class="anchor" aria-label="anchor" href="#exercise-5-minutes"></a>
 </h3>
-<div id="quadratic-equation" class="callout discussion">
+<div id="quadratic-equation" class="callout challenge">
 <div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
+<i class="callout-icon" data-feather="zap"></i>
 </div>
-<span class="callout-header">Discussion</span>
+<span class="callout-header">Challenge</span>
 <div id="quadratic-equation" class="callout-inner">
 <h3 class="callout-title">Quadratic equation</h3>
 <div class="callout-content">
@@ -2967,7 +2967,7 @@ you reasonably introduce?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p>A sample solution is provided in <a href="exercises/06-array-expressions/solutions/solution.f90">solution.f90</a>.</p>
 </div>
@@ -3077,7 +3077,7 @@ result.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>A solution to the problem appears as a <a href="exercises/10-dummy-array-arguments/exercise.f90">template</a> to
 the exercise in the <a href="10-dummy-array-arguments.html">later
@@ -3200,7 +3200,7 @@ board and the first update:</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p>Two reference answers are given in the <code>solutions</code>
 directory. The <a href="exercises/07-exercise/solutions-1/life-step2.f90">first</a> only
@@ -3390,7 +3390,7 @@ module file via, e.g.,</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <p>Compiling the program alone produces (with the Cray compiler) the
 following error:</p>
@@ -3511,7 +3511,7 @@ the whole module, including sub-programs.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
 <div class="accordion-body">
 <p>Making the module <code>private</code> hides the <code>mykind</code>
 parameter it provide from the program. On compilation,
@@ -3598,7 +3598,7 @@ computed. Check you can use the new function from a main program.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3"> Show me the solution </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
 <div class="accordion-body">
 <p>An example solution is provided in <a href="exercises/08-modules/solutions/solution_program.f90">solution_program.f90</a>
 and <a href="exercises/08-modules/solutions/solution_module.f90">solution_module.f90</a>.</p>
@@ -3637,7 +3637,7 @@ end module b</code></pre>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution4" aria-expanded="false" aria-controls="collapseSolution4">
   <h4 class="accordion-header" id="headingSolution4"> Show me the solution </h4>
 </button>
-<div id="collapseSolution4" class="accordion-collapse collapse" data-bs-parent="#accordionSolution4" aria-labelledby="headingSolution4">
+<div id="collapseSolution4" class="accordion-collapse collapse" aria-labelledby="headingSolution4" data-bs-parent="#accordionSolution4">
 <div class="accordion-body">
 <p>This is a circular dependency: <code>a</code> depends on
 <code>b</code> depends on <code>a</code>. There is no solvable
@@ -4095,11 +4095,11 @@ the corresponding rank or dimension e.g.,</p>
 <div class="section level3">
 <h3 id="exercise-4-minutes">Exercise (4 minutes)<a class="anchor" aria-label="anchor" href="#exercise-4-minutes"></a>
 </h3>
-<div id="checking-array-bounds" class="callout discussion">
+<div id="checking-array-bounds" class="callout challenge">
 <div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
+<i class="callout-icon" data-feather="zap"></i>
 </div>
-<span class="callout-header">Discussion</span>
+<span class="callout-header">Challenge</span>
 <div id="checking-array-bounds" class="callout-inner">
 <h3 class="callout-title">Checking array bounds</h3>
 <div class="callout-content">
@@ -5111,7 +5111,7 @@ directly on ARCHER2 by logging in with X11 forwarding enabled, running
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>A <a href="exercises/18-further-functions/pbm_image.f90">solution</a>
 to this problem appears in the later <a href="18-further-functions.html">episode on interfaces</a>.</p>
@@ -5415,11 +5415,11 @@ have seen so far.</p>
 <div class="section level3">
 <h3 id="exercise-10-minutes-1">Exercise (10 minutes)<a class="anchor" aria-label="anchor" href="#exercise-10-minutes-1"></a>
 </h3>
-<div id="writing-complex-data-to-namelists" class="callout discussion">
+<div id="writing-complex-data-to-namelists" class="callout challenge">
 <div class="callout-square">
-<i class="callout-icon" data-feather="message-circle"></i>
+<i class="callout-icon" data-feather="zap"></i>
 </div>
-<span class="callout-header">Discussion</span>
+<span class="callout-header">Challenge</span>
 <div id="writing-complex-data-to-namelists" class="callout-inner">
 <h3 class="callout-title">Writing complex data to namelists</h3>
 <div class="callout-content">
@@ -6033,7 +6033,7 @@ assignment.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>The <code>p</code> pointer can’t be associated with
 <code>datum</code> as the latter doesn’t have the <code>target</code>
@@ -6088,7 +6088,7 @@ either a variable or an expression.</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution2" aria-expanded="false" aria-controls="collapseSolution2">
   <h4 class="accordion-header" id="headingSolution2"> Show me the solution </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <p>You should see that the association is made to a strided section of
 the array <code>r1</code>:</p>
@@ -6185,7 +6185,7 @@ an existing allocatable array?</p>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution3" aria-expanded="false" aria-controls="collapseSolution3">
   <h4 class="accordion-header" id="headingSolution3"> Show me the solution </h4>
 </button>
-<div id="collapseSolution3" class="accordion-collapse collapse" aria-labelledby="headingSolution3" data-bs-parent="#accordionSolution3">
+<div id="collapseSolution3" class="accordion-collapse collapse" data-bs-parent="#accordionSolution3" aria-labelledby="headingSolution3">
 <div class="accordion-body">
 <p>If <code>move_alloc()</code> were not available, we would need to
 make two copies rather than one. Analogously to the above example, we
@@ -7356,7 +7356,7 @@ XX.</p>
         <p>Materials licensed under <a href="LICENSE.html">CC-BY 4.0</a> by the authors</p>
 
         <p>Template licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/" class="external-link">CC-BY 4.0</a> by <a href="https://carpentries.org/" class="external-link">The Carpentries</a></p>
-        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/" class="external-link">sandpaper (0.20.2)</a>, <a href="https://github.com/carpentries/pegboard/tree/" class="external-link">pegboard (0.7.9)</a>, and <a href="https://github.com/carpentries/varnish/tree/" class="external-link">varnish (1.1.1)</a></p>
+        <p>Built with <a href="https://github.com/carpentries/sandpaper/tree/" class="external-link">sandpaper (0.21.0)</a>, <a href="https://github.com/carpentries/pegboard/tree/" class="external-link">pegboard (0.7.9)</a>, and <a href="https://github.com/carpentries/varnish/tree/" class="external-link">varnish (1.1.2)</a></p>
 		</div>
 		</footer>
 </div> <!-- / div.container -->
@@ -7379,8 +7379,8 @@ XX.</p>
   "url": "https://welucas2.github.io/2026-02-18-MO-Fortran-intro/aio.html",
   "identifier": "https://welucas2.github.io/2026-02-18-MO-Fortran-intro/aio.html",
   "dateCreated": "2025-05-05",
-  "dateModified": "2026-08-25",
-  "datePublished": "2026-08-25"
+  "dateModified": "2026-09-08",
+  "datePublished": "2026-09-08"
 }
 
   </script><script>
